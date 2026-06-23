@@ -13,16 +13,29 @@
     font-size: 100%;
 }
 
-.hero {
-    background-image: url('../images/hero.jpg');
-    background-size: cover;
-    background-position: 100% 70%;
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.title {
+.hero {
+    display: flex;
+    justify-content: center;
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    /* aspect-ratio: 16 / 9; */
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding-top: 20vh;
+}
+
+.hero-text {
     font-family: 'AlexBrush', cursive;
     color: white;
-    text-align: center;
     font-size: 6rem;
     line-height: 1.2;
  }
