@@ -18,18 +18,44 @@ html, body {
   padding: 0;
   width: 100%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .navbar {
+    position: fixed;
     display: flex;
+    flex-direction: row;
     background-color: #013220;
     height: 7rem;
+    width: 100%;
     align-items: center;
 }
 
 .navbar .logo img{
+    margin-right: auto;
     height: 6rem;
     padding-left: 0.5em;
+}
+
+.nav-links li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .nav-links{
+    display: flex;
+    gap: 4em;
+    justify-self: flex-end;
+    margin-left: auto;
+    padding-right: 4em;
+}
+
+.navbar .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
 }
 
 .hero {
@@ -40,9 +66,10 @@ html, body {
     background-position: center;
     /* aspect-ratio: 16 / 9; */
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 7rem);
+    margin-top: 7rem;
     text-align: center;
-    padding-top: 20vh;
+    padding-top: 14vh;
 }
 
 .hero-text {
