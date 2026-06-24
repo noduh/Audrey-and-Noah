@@ -20,6 +20,18 @@ html, body {
   height: 100%;
 }
 
+.navbar {
+    display: flex;
+    background-color: #013220;
+    height: 7rem;
+    align-items: center;
+}
+
+.navbar .logo img{
+    height: 6rem;
+    padding-left: 0.5em;
+}
+
 .hero {
     display: flex;
     justify-content: center;
