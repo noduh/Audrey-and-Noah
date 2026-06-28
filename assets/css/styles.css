@@ -1,3 +1,5 @@
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
+
 @font-face {
     font-family: 'AlexBrush';
     src: url('../fonts/alexbrush-regular-webfont.woff2') format('woff2'),
@@ -22,6 +24,16 @@ html, body {
   flex-direction: column;
 }
 
+.hamburger {
+    display: inline-block;
+    background: none;
+    border: none;
+    font-size: 4em;
+    margin-left: auto;
+    color: white;
+    vertical-align: middle;
+}
+
 .navbar {
     position: fixed;
     display: flex;
@@ -39,23 +51,38 @@ html, body {
 }
 
 .nav-links li {
+    display: none;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.navbar .nav-links{
-    display: flex;
-    gap: 4em;
-    justify-self: flex-end;
-    margin-left: auto;
-    padding-right: 4em;
-}
+@media (min-width: 780px) {
+    .navbar .nav-links{
+        display: flex;
+        gap: 4em;
+        justify-self: flex-end;
+        margin-left: auto;
+        padding-right: 4em;
+        flex-direction: row;
+    }
 
-.navbar .nav-links a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.5em;
+    .navbar .nav-links a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.5em;
+    }
+    .hamburger {
+        display: none;
+    }
+
+    .nav-links li {
+        display: block;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
 }
 
 .hero {
