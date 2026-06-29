@@ -39,21 +39,7 @@ html, body {
         height: 6rem;
         padding-left: 0.5em;
     }
-
-    .hamburger {
-        display: inline-block;
-        background: none;
-        border: none;
-        font-size: 4em;
-        margin-left: auto;
-        color: white;
-        vertical-align: middle;
-        padding-right: 0.5em;
-    }
-    .hamburger:hover {
-        cursor: pointer;
-    }
-
+    
     @media (max-width: 779px){
         .nav-links {
             display: none;
@@ -78,8 +64,26 @@ html, body {
                 font-size: 4em;
             }
         }
-    }
 
+        .hamburger {
+            display: inline-block;
+            background: none;
+            border: none;
+            font-size: 3.5em;
+            margin-left: auto;
+            color: white;
+            vertical-align: middle;
+            padding-right: 0.5em;
+
+            #close-hamburger {
+                display: none;
+            }
+        }
+        .hamburger:hover {
+            cursor: pointer;
+        }
+    }
+    
     @media (min-width: 780px){
         .nav-links {
             align-self: center;
