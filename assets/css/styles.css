@@ -140,16 +140,31 @@ html, body {
 }
 
 .link-section {
-    width: 100%;
-    #registry-links {
+    color: white;
+    margin-top: 5rem;
+    margin-bottom: 9rem;
+
+    h1 {
+        font-size: 4rem;
         justify-self: center;
         text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 6rem;
+    }
+
+    #registry-links {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        text-align: center;
+        gap: 5rem;
         li {
             list-style-type: none;
-            margin: 5rem;
-            padding: 2rem;
+            border-radius: 9999px;
+            box-shadow: 3px 2px 0 1px rgba(0, 0, 0, 0.5);
             a {
-                display: inline;
+                padding: 2rem;
+                display: block;
                 text-decoration: none;
                 color: white;
                 font-size: 2rem;
@@ -158,12 +173,22 @@ html, body {
             }
             
         }
+        li:active {
+            transform: scale(0.98);
+        }
+
         #amazon-registry-link {
             background-color: #FF9900;
+        }
+        #amazon-registry-link:hover {
+            background-color: #cc7a00;
         }
         
         #venmo-registry-link {
             background-color: #008CFF;
+        }
+        #venmo-registry-link:hover {
+            background-color: #0070CC;
         }
     }
 }
