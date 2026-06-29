@@ -22,6 +22,7 @@ html, body {
   height: 100%;
   display: flex;
   flex-direction: column;
+  background-color: #727072;
 }
 
 .navbar {
@@ -95,8 +96,8 @@ html, body {
             flex-direction: row;
 
             li {
-                display: block;
                 list-style-type: none;
+                display: block;
                 margin: 0;
                 padding: 0;
             }
@@ -138,3 +139,31 @@ html, body {
      }
 }
 
+.link-section {
+    width: 100%;
+    #registry-links {
+        justify-self: center;
+        text-align: center;
+        li {
+            list-style-type: none;
+            margin: 5rem;
+            padding: 2rem;
+            a {
+                display: inline;
+                text-decoration: none;
+                color: white;
+                font-size: 2rem;
+                box-decoration-break: clone;
+                -webkit-box-decoration-break: clone;
+            }
+            
+        }
+        #amazon-registry-link {
+            background-color: #FF9900;
+        }
+        
+        #venmo-registry-link {
+            background-color: #008CFF;
+        }
+    }
+}
