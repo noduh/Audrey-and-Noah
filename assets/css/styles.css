@@ -44,6 +44,7 @@ h2 {
 }
 
 .navbar {
+    z-index: 100;
     font-family: "gothic_ultra_otregular";
     letter-spacing: 0.5ch;
     position: fixed;
@@ -60,12 +61,8 @@ h2 {
         height: 6rem;
         padding-left: 0.5em;
     }
-
-    .nav-links {
-        display: none;
-    }
     
-    @media (max-width: 779px){
+    @media (max-width: 870px){
         .nav-links {
             display: none;
             flex-direction: column;
@@ -76,8 +73,10 @@ h2 {
             width: 100%;
             height: calc(100vh - 7rem);
             text-align: right;
+            overflow: auto;
+            padding: 1.5rem;
             li {
-                padding: 2em;
+                padding: 1.5em;
                 margin-left: auto;
                 display: block;
                 list-style-type: none;
@@ -108,14 +107,14 @@ h2 {
         }
     }
     
-    @media (min-width: 780px){
+    @media (min-width: 870px){
         .nav-links {
             align-self: center;
             display: flex;
-            gap: 4em;
+            gap: 3em;
             justify-self: flex-end;
             margin-left: auto;
-            padding-right: 4em;
+            padding-right: 3em;
             flex-direction: row;
 
             li {
@@ -148,9 +147,13 @@ h2 {
     height: calc(100vh - 7rem);
     margin-top: 7rem;
     text-align: center;
-    padding-top: 10vh;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    padding-left: 2rem;
+    padding-right: 2rem;
 
     .hero-text {
+        align-self: center;
+        transform: translateY(-8vh);
         font-family: 'AlexBrush', cursive;
         color: white;
         font-size: 6rem;
