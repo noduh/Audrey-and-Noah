@@ -160,13 +160,14 @@ html, body {
         margin-bottom: 6rem;
         margin-left: auto;
         margin-right: auto;
+        padding: 1rem;
     }
 
     #registry-links {
+        padding: 3rem;
         display: flex;
         flex-direction: column;
         justify-self: center;
-        text-align: center;
         gap: 5rem;
         font-family: "InterVariable";
         font-weight: 800;
@@ -175,11 +176,11 @@ html, body {
             border-radius: 9999px;
             box-shadow: 3px 2px 0 1px rgba(0, 0, 0, 0.8);
             a {
+                text-align: center;
                 margin-left: auto;
                 margin-right: auto;
-                width: 20rem;
-                padding-top: 2rem;
-                padding-bottom: 2rem;
+                max-width: 20rem;
+                padding: 2rem;
                 display: block;
                 text-decoration: none;
                 color: white;
