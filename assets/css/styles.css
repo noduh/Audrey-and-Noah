@@ -73,7 +73,7 @@ html, body {
             margin-left: auto;
             color: white;
             vertical-align: middle;
-            padding-right: 0.5em;
+            margin-right: 0.5em;
 
             #close-hamburger {
                 display: none;
@@ -124,16 +124,17 @@ html, body {
     height: calc(100vh - 7rem);
     margin-top: 7rem;
     text-align: center;
-    padding-top: 14vh;
+    padding-top: 10vh;
+
+    .hero-text {
+        font-family: 'AlexBrush', cursive;
+        color: white;
+        font-size: 6rem;
+        line-height: 1.2;
+
+        #ampersand {
+           font-size: 4rem;
+        }
+     }
 }
 
-.hero-text {
-    font-family: 'AlexBrush', cursive;
-    color: white;
-    font-size: 6rem;
-    line-height: 1.2;
- }
-
- #ampersand {
-    font-size: 4rem;
- }
