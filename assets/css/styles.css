@@ -60,6 +60,16 @@ h3 {
 
 p {
     text-align: center;
+    font-family: "artifika";
+    font-size: 1.3rem;
+}
+
+.email-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.1em;
+    line-height: 2em;
 }
 
 .navbar {
