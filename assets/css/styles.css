@@ -1,6 +1,7 @@
 @import "https://www.nerdfonts.com/assets/css/webfont.css";
 @import url("../fonts/inter.css");
 @import url("../fonts/gothic_ultra_ot.css");
+@import url("../fonts/artifika.css");
 
 @font-face {
     font-family: 'AlexBrush';
@@ -55,6 +56,10 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     padding: 1rem;
+}
+
+p {
+    text-align: center;
 }
 
 .navbar {
