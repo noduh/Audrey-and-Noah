@@ -15,7 +15,7 @@
 
 :root {
     color-scheme: light dark;
-    --bg-color: light-dark(#F5EFD6, #011b12);
+    --bg-color: light-dark(#F5EFD6, #012015);
     --text-color: light-dark(#0C223B, white);
 }
 
