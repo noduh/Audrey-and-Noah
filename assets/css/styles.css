@@ -13,6 +13,12 @@
     font-display: swap;
 }
 
+:root {
+    color-scheme: light dark;
+    --bg-color: light-dark(#F5EFD6, #011b12);
+    --text-color: light-dark(#0C223B, white);
+}
+
 * {
     box-sizing: border-box;
     font-size: 100%;
@@ -25,8 +31,8 @@ html, body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-color: #F5EFD6;
-    color: #0C223B;
+    background-color: var(--bg-color);
+    color: var(--text-color);
 }
 
 body {
@@ -81,7 +87,7 @@ p {
     display: flex;
     width: 100%;
     flex-direction: row;
-    background-color: #013220;
+    background-color: light-dark(#013220, #01160E);
     height: 7rem;
     align-items: center;
 
@@ -98,7 +104,7 @@ p {
             position: fixed;
             top: 7rem;
             margin-top: 0;
-            background-color: #013220DD;
+            background-color: light-dark(#013220DD, #013220EE);
             width: 100%;
             height: calc(100vh - 7rem);
             text-align: right;
@@ -169,6 +175,12 @@ p {
     display: flex;
     justify-content: center;
     background-image: url('../images/hero.jpg');
+    background-color: transparent;
+    background-blend-mode: darken;
+    @media (prefers-color-scheme: dark) {
+        background-color: rgba(0, 0, 0, 0.25);
+
+    }
     background-size: cover;
     background-position: center;
     /* aspect-ratio: 16 / 9; */
@@ -181,7 +193,7 @@ p {
 
     .hero-text {
         align-self: center;
-        transform: translateY(-8vh);
+        transform: translateY(-7vh);
         font-family: 'AlexBrush', cursive;
         color: white;
         font-size: 6rem;
@@ -194,16 +206,21 @@ p {
 }
 
 .link-section {
-    color: white;
     margin-top: 5rem;
     margin-bottom: 9rem;
-
-    h2 {
-        color: #0C223B;
+    p {
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-bottom: 3rem;
     }
-
+    
+    h2 {
+        color: var(--text-color);
+    }
+    
     #registry-links {
         padding: 3rem;
+        color: white;
         display: flex;
         flex-direction: column;
         justify-self: center;
