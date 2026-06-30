@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="160.00006mm"
+   height="160.00006mm"
+   viewBox="0 0 160.00006 160.00006"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="heart.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.1009789"
+     inkscape:cx="165.76158"
+     inkscape:cy="294.73771"
+     inkscape:window-width="1536"
+     inkscape:window-height="955"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(2.0027161e-5,2.0027161e-5)">
+    <g
+       id="g986"
+       style="fill:#000000;fill-opacity:1"
+       transform="matrix(0.61369686,-0.61369686,0.61369686,0.61369686,-18.191499,67.271814)">
+      <rect
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:10.5024;stroke-dasharray:none"
+         id="rect165"
+         width="69.497627"
+         height="69.497635"
+         x="25.251184"
+         y="65.251183" />
+      <circle
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:10.5049;stroke-dasharray:none"
+         id="path219"
+         cx="60"
+         cy="59.999996"
+         r="34.747566" />
+      <circle
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:10.5049;stroke-dasharray:none"
+         id="path219-3"
+         cx="100"
+         cy="100.00001"
+         r="34.747566" />
+    </g>
+    <circle
+       style="fill:none;fill-opacity:0;fill-rule:evenodd;stroke:#000000;stroke-width:10.0861;stroke-dasharray:none;stroke-opacity:1"
+       id="path1041"
+       cx="80"
+       cy="80"
+       r="74.95697" />
+  </g>
+</svg>
