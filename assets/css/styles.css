@@ -68,10 +68,23 @@ h3 {
     padding: 1rem;
 }
 
+h4 {
+    font-family: "artifika";
+    font-size: 1.8em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.6rem;
+}
+
 p {
     text-align: center;
     font-family: "artifika";
     font-size: 1.3rem;
+}
+
+sup {
+    font-size: 0.8em;
 }
 
 .email-link {
@@ -268,4 +281,22 @@ p {
             background-color: #0070CC;
         }
     }
+}
+
+.event-details {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    /* align-content: center; */
+    align-items: center;
+    justify-content: center;
+    section {
+        display: block;
+        min-width: 20rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    padding-bottom: 3rem;
 }
